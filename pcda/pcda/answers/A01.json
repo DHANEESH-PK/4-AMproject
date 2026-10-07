@@ -1,0 +1,23 @@
+{
+  "id": "A01",
+  "question": "Revenue in Jan 2026",
+  "decision": "REFUSE",
+  "spec": {
+    "intent": "aggregate",
+    "metric": "sum",
+    "months": [
+      "2026-01"
+    ],
+    "region": null,
+    "currency": "USD"
+  },
+  "answer": null,
+  "confidence": null,
+  "refusal": [
+    {
+      "kind": "execution_error",
+      "why": "Traceback (most recent call last):\n  File \"C:\\Users\\Dhaneesh PK\\OneDrive\\Desktop\\HACKNEX\\pcda\\pcda\\runs\\A01.py\", line 22, in <module>\n    import pandas as pd\nModuleNotFoundError: No module named 'pandas'"
+    }
+  ],
+  "message": "Generated code failed; refusing rather than guessing."
+}

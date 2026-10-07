@@ -1,0 +1,23 @@
+{
+  "id": "Q15",
+  "question": "What was revenue in the North region in January 2026?",
+  "decision": "REFUSE",
+  "spec": {
+    "intent": "aggregate",
+    "metric": "sum",
+    "months": [
+      "2026-01"
+    ],
+    "region": "North",
+    "currency": "USD"
+  },
+  "answer": null,
+  "confidence": null,
+  "refusal": [
+    {
+      "kind": "contradiction",
+      "why": "customers.csv lists 3 customer(s) (C001, C002, C007) in two regions; 4 in-scope order(s) worth 2,841.24 USD cannot be assigned to 'North' reliably."
+    }
+  ],
+  "message": "I can't determine this reliably from the data. customers.csv lists 3 customer(s) (C001, C002, C007) in two regions; 4 in-scope order(s) worth 2,841.24 USD cannot be assigned to 'North' reliably."
+}

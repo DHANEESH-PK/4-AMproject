@@ -1,0 +1,167 @@
+{
+  "score": {
+    "correct_answers": [
+      0,
+      10
+    ],
+    "correct_refusals": [
+      14,
+      14
+    ],
+    "warned": [
+      0,
+      5
+    ],
+    "code_reruns": [
+      0,
+      0
+    ],
+    "wrong_confident": 0
+  },
+  "rows": [
+    [
+      "Q01",
+      "FAIL",
+      "REFUSED: execution_error",
+      "What was total revenue in USD for January 2026?"
+    ],
+    [
+      "Q02",
+      "FAIL",
+      "REFUSED: execution_error",
+      "How many unique orders were placed in February 2026?"
+    ],
+    [
+      "Q03",
+      "FAIL",
+      "REFUSED: execution_error",
+      "What was February 2026 revenue in USD?"
+    ],
+    [
+      "Q04",
+      "FAIL",
+      "REFUSED: execution_error",
+      "What was March 2026 revenue in USD?"
+    ],
+    [
+      "Q05",
+      "PASS",
+      "REFUSED: missing",
+      "What was April 2026 revenue in USD?"
+    ],
+    [
+      "Q06",
+      "PASS",
+      "REFUSED: ambiguous_date",
+      "What was June 2026 revenue in USD?"
+    ],
+    [
+      "Q07",
+      "FAIL",
+      "REFUSED: execution_error",
+      "What was total revenue in USD for H1 2026?"
+    ],
+    [
+      "Q08",
+      "PASS",
+      "REFUSED: unknown_entity",
+      "What was revenue in the Antarctica region in January 2026?"
+    ],
+    [
+      "Q09",
+      "PASS",
+      "REFUSED: out_of_coverage",
+      "What was revenue in December 2026?"
+    ],
+    [
+      "Q10",
+      "PASS",
+      "REFUSED: unsupported_intent",
+      "Why did revenue drop in March 2026?"
+    ],
+    [
+      "Q11",
+      "PASS",
+      "REFUSED: unknown_field",
+      "What is the average order value for churned customers?"
+    ],
+    [
+      "Q12",
+      "FAIL",
+      "REFUSED: execution_error",
+      "What was net revenue in USD for January 2026 after refunds?"
+    ],
+    [
+      "Q13",
+      "PASS",
+      "REFUSED: ambiguous_period",
+      "What was total revenue in Q2?"
+    ],
+    [
+      "Q14",
+      "FAIL",
+      "REFUSED: execution_error",
+      "What was total revenue for January 2026?"
+    ],
+    [
+      "Q15",
+      "PASS",
+      "REFUSED: contradiction",
+      "What was revenue in the North region in January 2026?"
+    ],
+    [
+      "A01",
+      "FAIL",
+      "REFUSED: execution_error",
+      "Revenue in Jan 2026"
+    ],
+    [
+      "A02",
+      "PASS",
+      "REFUSED: ambiguous_period",
+      "What was revenue last month?"
+    ],
+    [
+      "A03",
+      "PASS",
+      "REFUSED: unsupported_intent",
+      "Top 3 customers by revenue in January 2026"
+    ],
+    [
+      "A04",
+      "PASS",
+      "REFUSED: ambiguous_period",
+      "Revenue for fiscal Q1 2026"
+    ],
+    [
+      "A05",
+      "PASS",
+      "REFUSED: ambiguous_date",
+      "How many orders in June 2026?"
+    ],
+    [
+      "A06",
+      "FAIL",
+      "REFUSED: execution_error",
+      "Total sales in euros for March 2026"
+    ],
+    [
+      "A07",
+      "PASS",
+      "REFUSED: out_of_coverage",
+      "Revenue in 2026"
+    ],
+    [
+      "A08",
+      "PASS",
+      "REFUSED: unknown_field",
+      "What was shipping revenue in Jan 2026?"
+    ],
+    [
+      "Q16",
+      "FAIL",
+      "REFUSED: execution_error",
+      "What was revenue in the East region in January 2026?"
+    ]
+  ]
+}

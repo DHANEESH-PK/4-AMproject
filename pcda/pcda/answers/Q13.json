@@ -1,0 +1,21 @@
+{
+  "id": "Q13",
+  "question": "What was total revenue in Q2?",
+  "decision": "REFUSE",
+  "spec": {
+    "intent": "aggregate",
+    "metric": "sum",
+    "months": [],
+    "region": null,
+    "currency": "USD"
+  },
+  "answer": null,
+  "confidence": null,
+  "refusal": [
+    {
+      "kind": "ambiguous_period",
+      "why": "'Q2' is ambiguous: calendar Q2 vs fiscal Q2 (fiscal year starts month 4 per data_dictionary.md). Please specify."
+    }
+  ],
+  "message": "I can't determine this reliably from the data. 'Q2' is ambiguous: calendar Q2 vs fiscal Q2 (fiscal year starts month 4 per data_dictionary.md). Please specify."
+}

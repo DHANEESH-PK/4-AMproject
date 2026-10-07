@@ -1,0 +1,165 @@
+{
+  "seed": 42,
+  "questions": [
+    {
+      "id": "Q01",
+      "question": "What was total revenue in USD for January 2026?",
+      "expect": "ANSWER",
+      "value": 89756.77
+    },
+    {
+      "id": "Q02",
+      "question": "How many unique orders were placed in February 2026?",
+      "expect": "ANSWER",
+      "value": 63
+    },
+    {
+      "id": "Q03",
+      "question": "What was February 2026 revenue in USD?",
+      "expect": "ANSWER",
+      "value": 80814.23,
+      "must_warn": "contradiction"
+    },
+    {
+      "id": "Q04",
+      "question": "What was March 2026 revenue in USD?",
+      "expect": "ANSWER",
+      "value": 81154.64,
+      "must_warn": "missing"
+    },
+    {
+      "id": "Q05",
+      "question": "What was April 2026 revenue in USD?",
+      "expect": "REFUSE",
+      "reason": "missing"
+    },
+    {
+      "id": "Q06",
+      "question": "What was June 2026 revenue in USD?",
+      "expect": "REFUSE",
+      "reason": "ambiguous_date"
+    },
+    {
+      "id": "Q07",
+      "question": "What was total revenue in USD for H1 2026?",
+      "expect": "ANSWER",
+      "value": 483452.48,
+      "must_warn": "missing"
+    },
+    {
+      "id": "Q08",
+      "question": "What was revenue in the Antarctica region in January 2026?",
+      "expect": "REFUSE",
+      "reason": "unknown_entity"
+    },
+    {
+      "id": "Q09",
+      "question": "What was revenue in December 2026?",
+      "expect": "REFUSE",
+      "reason": "out_of_coverage"
+    },
+    {
+      "id": "Q10",
+      "question": "Why did revenue drop in March 2026?",
+      "expect": "REFUSE",
+      "reason": "unsupported_intent"
+    },
+    {
+      "id": "Q11",
+      "question": "What is the average order value for churned customers?",
+      "expect": "REFUSE",
+      "reason": "unknown_field"
+    },
+    {
+      "id": "Q12",
+      "question": "What was net revenue in USD for January 2026 after refunds?",
+      "expect": "ANSWER",
+      "value": 86693.03
+    },
+    {
+      "id": "Q13",
+      "question": "What was total revenue in Q2?",
+      "expect": "REFUSE",
+      "reason": "ambiguous_period"
+    },
+    {
+      "id": "Q14",
+      "question": "What was total revenue for January 2026?",
+      "expect": "ANSWER",
+      "value": 89756.77,
+      "must_warn": "currency_assumed"
+    },
+    {
+      "id": "Q15",
+      "question": "What was revenue in the North region in January 2026?",
+      "expect": "REFUSE",
+      "reason": "contradiction"
+    },
+    {
+      "id": "A01",
+      "question": "Revenue in Jan 2026",
+      "expect": "ANSWER",
+      "value": 89756.77
+    },
+    {
+      "id": "A02",
+      "question": "What was revenue last month?",
+      "expect": "REFUSE",
+      "reason": "ambiguous_period"
+    },
+    {
+      "id": "A03",
+      "question": "Top 3 customers by revenue in January 2026",
+      "expect": "REFUSE",
+      "reason": "unsupported_intent"
+    },
+    {
+      "id": "A04",
+      "question": "Revenue for fiscal Q1 2026",
+      "expect": "REFUSE",
+      "reason": "ambiguous_period"
+    },
+    {
+      "id": "A05",
+      "question": "How many orders in June 2026?",
+      "expect": "REFUSE",
+      "reason": "ambiguous_date"
+    },
+    {
+      "id": "A06",
+      "question": "Total sales in euros for March 2026",
+      "expect": "ANSWER",
+      "value": 74590.66,
+      "must_warn": "missing"
+    },
+    {
+      "id": "A07",
+      "question": "Revenue in 2026",
+      "expect": "REFUSE",
+      "reason": "out_of_coverage"
+    },
+    {
+      "id": "A08",
+      "question": "What was shipping revenue in Jan 2026?",
+      "expect": "REFUSE",
+      "reason": "unknown_field"
+    },
+    {
+      "id": "Q16",
+      "question": "What was revenue in the East region in January 2026?",
+      "expect": "ANSWER",
+      "value": 27149.84
+    }
+  ],
+  "planted": {
+    "duplicates": 25,
+    "missing_amount_rows": 15,
+    "ambiguous_legacy_rows": 6,
+    "conflict_customers": [
+      "C001",
+      "C002",
+      "C007"
+    ],
+    "stale_summary_month": "2026-02"
+  }
+}

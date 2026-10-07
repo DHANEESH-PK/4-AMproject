@@ -1,0 +1,98 @@
+[
+  {
+    "id": "Q01",
+    "question": "What was total revenue in USD for January 2026?"
+  },
+  {
+    "id": "Q02",
+    "question": "How many unique orders were placed in February 2026?"
+  },
+  {
+    "id": "Q03",
+    "question": "What was February 2026 revenue in USD?"
+  },
+  {
+    "id": "Q04",
+    "question": "What was March 2026 revenue in USD?"
+  },
+  {
+    "id": "Q05",
+    "question": "What was April 2026 revenue in USD?"
+  },
+  {
+    "id": "Q06",
+    "question": "What was June 2026 revenue in USD?"
+  },
+  {
+    "id": "Q07",
+    "question": "What was total revenue in USD for H1 2026?"
+  },
+  {
+    "id": "Q08",
+    "question": "What was revenue in the Antarctica region in January 2026?"
+  },
+  {
+    "id": "Q09",
+    "question": "What was revenue in December 2026?"
+  },
+  {
+    "id": "Q10",
+    "question": "Why did revenue drop in March 2026?"
+  },
+  {
+    "id": "Q11",
+    "question": "What is the average order value for churned customers?"
+  },
+  {
+    "id": "Q12",
+    "question": "What was net revenue in USD for January 2026 after refunds?"
+  },
+  {
+    "id": "Q13",
+    "question": "What was total revenue in Q2?"
+  },
+  {
+    "id": "Q14",
+    "question": "What was total revenue for January 2026?"
+  },
+  {
+    "id": "Q15",
+    "question": "What was revenue in the North region in January 2026?"
+  },
+  {
+    "id": "A01",
+    "question": "Revenue in Jan 2026"
+  },
+  {
+    "id": "A02",
+    "question": "What was revenue last month?"
+  },
+  {
+    "id": "A03",
+    "question": "Top 3 customers by revenue in January 2026"
+  },
+  {
+    "id": "A04",
+    "question": "Revenue for fiscal Q1 2026"
+  },
+  {
+    "id": "A05",
+    "question": "How many orders in June 2026?"
+  },
+  {
+    "id": "A06",
+    "question": "Total sales in euros for March 2026"
+  },
+  {
+    "id": "A07",
+    "question": "Revenue in 2026"
+  },
+  {
+    "id": "A08",
+    "question": "What was shipping revenue in Jan 2026?"
+  },
+  {
+    "id": "Q16",
+    "question": "What was revenue in the East region in January 2026?"
+  }
+]

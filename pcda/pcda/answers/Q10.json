@@ -1,0 +1,21 @@
+{
+  "id": "Q10",
+  "question": "Why did revenue drop in March 2026?",
+  "decision": "REFUSE",
+  "spec": {
+    "intent": "unsupported",
+    "metric": "sum",
+    "months": [],
+    "region": null,
+    "currency": "USD"
+  },
+  "answer": null,
+  "confidence": null,
+  "refusal": [
+    {
+      "kind": "unsupported_intent",
+      "why": "Causal / predictive / advisory question \u2014 data shows WHAT, not WHY."
+    }
+  ],
+  "message": "I can't determine this reliably from the data. Causal / predictive / advisory question \u2014 data shows WHAT, not WHY."
+}

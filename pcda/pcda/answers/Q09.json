@@ -1,0 +1,23 @@
+{
+  "id": "Q09",
+  "question": "What was revenue in December 2026?",
+  "decision": "REFUSE",
+  "spec": {
+    "intent": "aggregate",
+    "metric": "sum",
+    "months": [
+      "2026-12"
+    ],
+    "region": null,
+    "currency": "USD"
+  },
+  "answer": null,
+  "confidence": null,
+  "refusal": [
+    {
+      "kind": "out_of_coverage",
+      "why": "Requested period 2026-12..2026-12 is outside data coverage 2026-01 .. 2026-06. Reporting 0 would be a fabricated answer."
+    }
+  ],
+  "message": "I can't determine this reliably from the data. Requested period 2026-12..2026-12 is outside data coverage 2026-01 .. 2026-06. Reporting 0 would be a fabricated answer."
+}

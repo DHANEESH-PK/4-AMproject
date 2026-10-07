@@ -1,0 +1,23 @@
+{
+  "id": "Q06",
+  "question": "What was June 2026 revenue in USD?",
+  "decision": "REFUSE",
+  "spec": {
+    "intent": "aggregate",
+    "metric": "sum",
+    "months": [
+      "2026-06"
+    ],
+    "region": null,
+    "currency": "USD"
+  },
+  "answer": null,
+  "confidence": null,
+  "refusal": [
+    {
+      "kind": "ambiguous_date",
+      "why": "6 order(s) from source 'legacy' have dates like '05/06/2026' with an undocumented format; one reading falls inside the requested period, the other outside. Value ranges by up to 5,731.49 USD. Cannot give one number."
+    }
+  ],
+  "message": "I can't determine this reliably from the data. 6 order(s) from source 'legacy' have dates like '05/06/2026' with an undocumented format; one reading falls inside the requested period, the other outside. Value ranges by up to 5,731.49 USD. Cannot give one number."
+}

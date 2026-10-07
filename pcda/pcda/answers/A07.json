@@ -1,0 +1,34 @@
+{
+  "id": "A07",
+  "question": "Revenue in 2026",
+  "decision": "REFUSE",
+  "spec": {
+    "intent": "aggregate",
+    "metric": "sum",
+    "months": [
+      "2026-01",
+      "2026-02",
+      "2026-03",
+      "2026-04",
+      "2026-05",
+      "2026-06",
+      "2026-07",
+      "2026-08",
+      "2026-09",
+      "2026-10",
+      "2026-11",
+      "2026-12"
+    ],
+    "region": null,
+    "currency": "USD"
+  },
+  "answer": null,
+  "confidence": null,
+  "refusal": [
+    {
+      "kind": "out_of_coverage",
+      "why": "Requested period 2026-07..2026-12 is outside data coverage 2026-01 .. 2026-06. Reporting 0 would be a fabricated answer."
+    }
+  ],
+  "message": "I can't determine this reliably from the data. Requested period 2026-07..2026-12 is outside data coverage 2026-01 .. 2026-06. Reporting 0 would be a fabricated answer."
+}

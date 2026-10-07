@@ -1,0 +1,21 @@
+{
+  "id": "A02",
+  "question": "What was revenue last month?",
+  "decision": "REFUSE",
+  "spec": {
+    "intent": "aggregate",
+    "metric": "sum",
+    "months": [],
+    "region": null,
+    "currency": "USD"
+  },
+  "answer": null,
+  "confidence": null,
+  "refusal": [
+    {
+      "kind": "ambiguous_period",
+      "why": "Relative period ('last month', 'recent', 'YTD'...) \u2014 relative to which date? Please give an explicit month/quarter and year."
+    }
+  ],
+  "message": "I can't determine this reliably from the data. Relative period ('last month', 'recent', 'YTD'...) \u2014 relative to which date? Please give an explicit month/quarter and year."
+}

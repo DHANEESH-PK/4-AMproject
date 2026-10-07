@@ -1,0 +1,23 @@
+{
+  "id": "Q05",
+  "question": "What was April 2026 revenue in USD?",
+  "decision": "REFUSE",
+  "spec": {
+    "intent": "aggregate",
+    "metric": "sum",
+    "months": [
+      "2026-04"
+    ],
+    "region": null,
+    "currency": "USD"
+  },
+  "answer": null,
+  "confidence": null,
+  "refusal": [
+    {
+      "kind": "missing",
+      "why": "12 of 61 in-scope orders (20%) have no usable amount (threshold 10%). Any total would be materially understated."
+    }
+  ],
+  "message": "I can't determine this reliably from the data. 12 of 61 in-scope orders (20%) have no usable amount (threshold 10%). Any total would be materially understated."
+}

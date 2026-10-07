@@ -1,0 +1,23 @@
+{
+  "id": "Q08",
+  "question": "What was revenue in the Antarctica region in January 2026?",
+  "decision": "REFUSE",
+  "spec": {
+    "intent": "aggregate",
+    "metric": "sum",
+    "months": [
+      "2026-01"
+    ],
+    "region": "Antarctica",
+    "currency": "USD"
+  },
+  "answer": null,
+  "confidence": null,
+  "refusal": [
+    {
+      "kind": "unknown_entity",
+      "why": "Region 'Antarctica' does not exist. Known regions: East, North, South, West."
+    }
+  ],
+  "message": "I can't determine this reliably from the data. Region 'Antarctica' does not exist. Known regions: East, North, South, West."
+}

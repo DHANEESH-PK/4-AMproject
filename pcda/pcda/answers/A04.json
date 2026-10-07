@@ -1,0 +1,21 @@
+{
+  "id": "A04",
+  "question": "Revenue for fiscal Q1 2026",
+  "decision": "REFUSE",
+  "spec": {
+    "intent": "aggregate",
+    "metric": "sum",
+    "months": [],
+    "region": null,
+    "currency": "USD"
+  },
+  "answer": null,
+  "confidence": null,
+  "refusal": [
+    {
+      "kind": "ambiguous_period",
+      "why": "'Fiscal Q1 2026' is ambiguous: the fiscal year starts in month 4, and data_dictionary.md does not say whether FY2026 starts in 2025 or 2026."
+    }
+  ],
+  "message": "I can't determine this reliably from the data. 'Fiscal Q1 2026' is ambiguous: the fiscal year starts in month 4, and data_dictionary.md does not say whether FY2026 starts in 2025 or 2026."
+}

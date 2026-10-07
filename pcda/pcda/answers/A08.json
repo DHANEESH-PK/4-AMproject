@@ -1,0 +1,21 @@
+{
+  "id": "A08",
+  "question": "What was shipping revenue in Jan 2026?",
+  "decision": "REFUSE",
+  "spec": {
+    "intent": "aggregate",
+    "metric": "sum",
+    "months": [],
+    "region": null,
+    "currency": "USD"
+  },
+  "answer": null,
+  "confidence": null,
+  "refusal": [
+    {
+      "kind": "unknown_field",
+      "why": "Question uses term(s) this agent can't map to the data: shipping."
+    }
+  ],
+  "message": "I can't determine this reliably from the data. Question uses term(s) this agent can't map to the data: shipping."
+}
